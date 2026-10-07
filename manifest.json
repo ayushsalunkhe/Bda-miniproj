@@ -313,6 +313,14 @@
         "Package": "randomForest",
         "Version": "4.7-1.2"
       }
+    },
+    "otel": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "otel",
+        "Version": "0.2.0"
+      }
     }
   },
   "files": {},
