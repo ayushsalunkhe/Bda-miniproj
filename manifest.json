@@ -12,27 +12,33 @@
   "packages": {
     "shiny": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com"
+      "Repository": "https://cran.rstudio.com",
+      "description": {"Package": "shiny", "Version": "1.11.1"}
     },
     "tidyverse": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com"
+      "Repository": "https://cran.rstudio.com",
+      "description": {"Package": "tidyverse", "Version": "2.0.0"}
     },
     "lubridate": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com"
+      "Repository": "https://cran.rstudio.com",
+      "description": {"Package": "lubridate", "Version": "1.9.4"}
     },
     "zoo": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com"
+      "Repository": "https://cran.rstudio.com",
+      "description": {"Package": "zoo", "Version": "1.8-14"}
     },
     "randomForest": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com"
+      "Repository": "https://cran.rstudio.com",
+      "description": {"Package": "randomForest", "Version": "4.7-1.2"}
     },
     "scales": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com"
+      "Repository": "https://cran.rstudio.com",
+      "description": {"Package": "scales", "Version": "1.4.0"}
     }
   },
   "files": {},
