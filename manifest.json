@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "locale": "en_US.UTF-8",
-  "platform": "4.5",
+  "locale": "en_US",
+  "platform": "4.5.0",
   "metadata": {
     "appmode": "shiny",
     "primary_rmd": null,
@@ -9,16 +9,32 @@
     "content_category": null,
     "has_parameters": false
   },
-  "packages": [
-    {"Package":"shiny","Version":"1.11.1","Source":"CRAN","Repository":"https://cloud.r-project.org"},
-    {"Package":"tidyverse","Version":"2.0.0","Source":"CRAN","Repository":"https://cloud.r-project.org"},
-    {"Package":"lubridate","Version":"1.9.4","Source":"CRAN","Repository":"https://cloud.r-project.org"},
-    {"Package":"zoo","Version":"1.9-1","Source":"CRAN","Repository":"https://cloud.r-project.org"},
-    {"Package":"randomForest","Version":"4.7-1.2","Source":"CRAN","Repository":"https://cloud.r-project.org"},
-    {"Package":"scales","Version":"1.4.0","Source":"CRAN","Repository":"https://cloud.r-project.org"}
-  ],
-  "python": null,
-  "quarto": null,
-  "files": null,
+  "packages": {
+    "shiny": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com"
+    },
+    "tidyverse": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com"
+    },
+    "lubridate": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com"
+    },
+    "zoo": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com"
+    },
+    "randomForest": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com"
+    },
+    "scales": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com"
+    }
+  },
+  "files": {},
   "users": null
 }
