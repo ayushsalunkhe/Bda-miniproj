@@ -10,41 +10,38 @@
     "has_parameters": false
   },
   "packages": {
-    "askpass": {
+    "shiny": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
-        "Package": "askpass",
-        "Version": "1.2.1"
-      }
-    },
-    "base64enc": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "base64enc",
-        "Version": "0.1-6"
+        "Package": "shiny",
+        "Version": "1.13.0",
+        "Depends": "methods, R (>= 3.1.2)",
+        "Imports": "bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>= 0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable"
       }
     },
     "bslib": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "bslib",
-        "Version": "0.10.0"
+        "Version": "0.10.0",
+        "Depends": "R (>= 2.10)",
+        "Imports": "base64enc, cachem, fastmap (>= 1.1.1), grDevices, htmltools (>= 0.5.8), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.9)"
       }
     },
     "cachem": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "cachem",
-        "Version": "1.1.0"
+        "Version": "1.1.0",
+        "Imports": "rlang, fastmap (>= 1.2.0)"
       }
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "cli",
         "Version": "3.6.5"
@@ -52,47 +49,15 @@
     },
     "commonmark": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "commonmark",
         "Version": "2.0.0"
       }
     },
-    "crayon": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "crayon",
-        "Version": "1.5.3"
-      }
-    },
-    "cpp11": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "cpp11",
-        "Version": "0.5.3"
-      }
-    },
-    "curl": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "curl",
-        "Version": "7.0.0"
-      }
-    },
-    "digest": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "digest",
-        "Version": "0.6.39"
-      }
-    },
     "fastmap": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "fastmap",
         "Version": "1.2.0"
@@ -100,55 +65,48 @@
     },
     "fontawesome": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "fontawesome",
-        "Version": "0.5.3"
-      }
-    },
-    "fs": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "fs",
-        "Version": "2.0.1"
+        "Version": "0.5.3",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "rlang (>= 1.0.6), htmltools (>= 0.5.1.1)"
       }
     },
     "glue": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "glue",
-        "Version": "1.8.0"
+        "Version": "1.8.0",
+        "Depends": "R (>= 3.6)",
+        "Imports": "methods"
       }
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "htmltools",
-        "Version": "0.5.9"
+        "Version": "0.5.9",
+        "Depends": "R (>= 2.14.1)",
+        "Imports": "base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils"
       }
     },
     "httpuv": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "httpuv",
-        "Version": "1.6.17"
-      }
-    },
-    "jquerylib": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "jquerylib",
-        "Version": "0.1.4"
+        "Version": "1.6.17",
+        "Depends": "R (>= 2.15.1)",
+        "Imports": "later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils",
+        "LinkingTo": "later, Rcpp"
       }
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "jsonlite",
         "Version": "2.0.0"
@@ -156,63 +114,54 @@
     },
     "later": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "later",
-        "Version": "1.4.8"
+        "Version": "1.4.8",
+        "Depends": "R (>= 3.5)",
+        "Imports": "Rcpp (>= 1.0.10), rlang",
+        "LinkingTo": "Rcpp"
       }
     },
     "lifecycle": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "lifecycle",
-        "Version": "1.0.5"
-      }
-    },
-    "magrittr": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "magrittr",
-        "Version": "2.0.4"
-      }
-    },
-    "memoise": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "memoise",
-        "Version": "2.0.1"
+        "Version": "1.0.5",
+        "Depends": "R (>= 3.6)",
+        "Imports": "cli (>= 3.4.0), rlang (>= 1.1.0)"
       }
     },
     "mime": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "mime",
         "Version": "0.13"
       }
     },
-    "openssl": {
+    "otel": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
-        "Package": "openssl",
-        "Version": "2.3.5"
+        "Package": "otel",
+        "Version": "0.2.0"
       }
     },
     "promises": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "promises",
-        "Version": "1.5.0"
+        "Version": "1.5.0",
+        "Depends": "R (>= 4.1.0)",
+        "Imports": "fastmap (>= 1.1.0), later, lifecycle, magrittr (>= 1.5), otel (>= 0.2.0), R6, rlang"
       }
     },
     "R6": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "R6",
         "Version": "2.6.1"
@@ -220,106 +169,129 @@
     },
     "rappdirs": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "rappdirs",
-        "Version": "0.3.4"
+        "Version": "0.3.4",
+        "Depends": "R (>= 4.1)"
       }
     },
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "Rcpp",
-        "Version": "1.1.1"
+        "Version": "1.1.1",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "methods, utils"
       }
     },
     "rlang": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "rlang",
         "Version": "1.1.7"
       }
     },
-    "S7": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "S7",
-        "Version": "0.2.1"
-      }
-    },
     "sass": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "sass",
-        "Version": "0.4.10"
-      }
-    },
-    "shiny": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "shiny",
-        "Version": "1.13.0"
+        "Version": "0.4.10",
+        "Imports": "fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs"
       }
     },
     "sourcetools": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "sourcetools",
-        "Version": "0.1.7-2"
-      }
-    },
-    "sys": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "sys",
-        "Version": "3.4.3"
-      }
-    },
-    "vctrs": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "vctrs",
-        "Version": "0.7.2"
+        "Version": "0.1.7-2",
+        "Depends": "R (>= 3.0.2)"
       }
     },
     "withr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "withr",
-        "Version": "3.0.2"
+        "Version": "3.0.2",
+        "Depends": "R (>= 3.6.0)",
+        "Imports": "graphics, grDevices"
       }
     },
     "xtable": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "xtable",
-        "Version": "1.8-8"
+        "Version": "1.8-8",
+        "Depends": "R (>= 2.10.0)",
+        "Imports": "stats, utils, methods"
+      }
+    },
+    "base64enc": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "base64enc",
+        "Version": "0.1-6",
+        "Depends": "R (>= 2.9.0)"
+      }
+    },
+    "digest": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "digest",
+        "Version": "0.6.39",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "utils"
+      }
+    },
+    "jquerylib": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "jquerylib",
+        "Version": "0.1.4",
+        "Imports": "htmltools"
+      }
+    },
+    "memoise": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "memoise",
+        "Version": "2.0.1",
+        "Imports": "rlang (>= 0.4.10), cachem"
       }
     },
     "randomForest": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "randomForest",
-        "Version": "4.7-1.2"
+        "Version": "4.7-1.2",
+        "Depends": "R (>= 3.0.0)"
       }
     },
-    "otel": {
+    "fs": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://cran.r-project.org",
       "description": {
-        "Package": "otel",
-        "Version": "0.2.0"
+        "Package": "fs",
+        "Version": "2.0.1"
+      }
+    },
+    "magrittr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "magrittr",
+        "Version": "2.0.4"
       }
     }
   },
