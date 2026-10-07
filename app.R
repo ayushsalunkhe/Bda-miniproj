@@ -1,5 +1,5 @@
 # Inventory Demand Prediction - Shiny App (BDA Mini Project)
-suppressPackageStartupMessages({library(shiny);library(tidyverse);library(lubridate);library(zoo);library(randomForest);library(scales)})
+suppressPackageStartupMessages({library(shiny);library(tidyverse);library(lubridate);library(zoo);library(randomForest)})
 set.seed(42)
 if(file.exists("train.csv")){raw<-read.csv("train.csv",stringsAsFactors=FALSE);raw$date<-as.Date(raw$date)}else{
  grid<-expand.grid(date=seq(as.Date("2013-01-01"),as.Date("2017-12-31"),by="day"),store=1:5,item=1:20)
